@@ -2,6 +2,12 @@
 
 Example AWS Metadata proxy to protect against attack vectors targetting AWS Credentials 
 
+## Preface
+AWS updated their metadata service in Nov '20 ([IMDSv2](https://aws.amazon.com/about-aws/whats-new/2019/11/announcing-updates-amazon-ec2-instance-metadata-service/)). With IMDSv2 a token will be sent when requesting the metadata service, therefore the risk of an attacker requesting the metadata service through ssrf has been minimized. There is a few blogposts about implementation details ([getting started with imdsv2](https://blog.appsecco.com/getting-started-with-version-2-of-aws-ec2-instance-metadata-service-imdsv2-2ad03a1f3650)). 
+
+Depending on your usecase and the threat model it could be reasonable to just use the IMDSV2. 
+
+
 ## Getting Started
 
 Clone the repo
