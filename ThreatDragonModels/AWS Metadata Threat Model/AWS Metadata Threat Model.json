@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "AWS Metadata Threat Model",
+    "owner": "Philip",
+    "description": "Test"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "asd",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
