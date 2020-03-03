@@ -1,7 +1,8 @@
 {
   "summary": {
     "title": "AWS Metadata Threat Model",
-    "owner": "Philip"
+    "owner": "Philip",
+    "description": "Test"
   },
   "detail": {
     "contributors": [],
